@@ -13,8 +13,8 @@ if($_POST) {
     $clientEmail = addslashes(trim($_POST['email']));
     $subject = addslashes(trim($_POST['subject']));
     $message = addslashes(trim($_POST['message']));
-
-    $array = array('emailMessage' => '', 'subjectMessage' => '', 'messageMessage' => '');
+	
+    $array = array('emailMessage' => $message, 'subjectMessage' => $subject, 'messageMessage' => '');
 
     if(!isEmail($clientEmail)) {
         $array['emailMessage'] = 'Invalid email!';
@@ -32,6 +32,7 @@ if($_POST) {
     }
 
     echo json_encode($array);
+	
 
 }
 
