@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
 	font-size: 16px;
-	line-height: 1.5;
+	line-height: 2;
 	margin-bottom: 20px;
 }
 .content {
@@ -41,15 +41,10 @@ p {
 	border-color: #f05f40;
 	color: #f05f40;
 	text-align: left;
+	padding: 10% 5% 0 5%;
+	margin-top: -5%;
 }
-.content p {
-	margin: 40px;
-	margin-top: 10%;
-}
-.form-section {
-	background-color: rgba(0,255,255,.1);
-	width: 100%;
-}
+
 header img {
 	width: 15%;
 	margin-left: 10%;
@@ -60,7 +55,6 @@ header img {
 }
 .bg-dark {
 	background-color: #f05f40;
-	;
 	color: white;
 }
 .text-faded {
@@ -85,18 +79,16 @@ aside {
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
-	background-image:url(../images/img_3point.png);
+	background-image: url(../images/img_3point.png);
 	color: white;
-	
 }
-
 .carousel-inner {
 	width: 60%;
 	margin-left: 20%;
 	margin-right: 20%;
 	padding-bottom: 5%;
-	margin-top:5%;
-	text-align:center;
+	margin-top: 5%;
+	text-align: center;
 }
 .App-icons {
 	width: 50%;
@@ -119,11 +111,10 @@ aside {
 .carousel-control.left {
 	background-image: none;
 }
-
-.mountain-index {
-	float:right;
+.index {
+	float: right;
 	margin: 5%;
-	mardin-right:10%;
+	
 }
 .Intro-description {
 	color: #000;
@@ -132,7 +123,6 @@ aside {
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
-
 .img-res {
 	padding: 0;
 	display: inline;
@@ -142,8 +132,6 @@ moun-padding {
 	padding: 0;
 	margin: 0;
 }
-
-
 
 @media (max-width: 768px) {
 .img-res {
@@ -173,13 +161,13 @@ moun-padding {
 .navbar-default .navbar-header .navbar-brand {
 	color: rgba(255, 255, 255, 0.7);
 }
-.navbar-default .navbar-header .navbar-brand:hover,  .navbar-default .navbar-header .navbar-brand:focus {
+.navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
 	color: white;
 }
-.navbar-default .nav > li > a,  .navbar-default .nav > li > a:focus {
+.navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
 	color: rgba(255, 255, 255, 0.7);
 }
-.navbar-default .nav > li > a:hover,  .navbar-default .nav > li > a:focus:hover {
+.navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:focus:hover {
 	color: white;
 }
 .navbar-default.affix {
@@ -190,13 +178,13 @@ moun-padding {
 	color: #f05f40;
 	font-size: 14px;
 }
-.navbar-default.affix .navbar-header .navbar-brand:hover,  .navbar-default.affix .navbar-header .navbar-brand:focus {
+.navbar-default.affix .navbar-header .navbar-brand:hover, .navbar-default.affix .navbar-header .navbar-brand:focus {
 	color: #eb3812;
 }
-.navbar-default.affix .nav > li > a,  .navbar-default.affix .nav > li > a:focus {
+.navbar-default.affix .nav > li > a, .navbar-default.affix .nav > li > a:focus {
 	color: #222222;
 }
-.navbar-default.affix .nav > li > a:hover,  .navbar-default.affix .nav > li > a:focus:hover {
+.navbar-default.affix .nav > li > a:hover, .navbar-default.affix .nav > li > a:focus:hover {
 	color: #f05f40;
 }
 }
@@ -214,19 +202,53 @@ header {
 	color: white;
 }
 .about {
-	
 	width: 100%;
 	min-height: auto;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
-	background-image:url(../images/img_3point.png);
+	background-image: url(../images/img_3point.png);
 	text-align: left;
 	color: white;
 }
-.sec-about-margin{
-	margin-top:50px;
+.blue-bg {
+	position: relative;
+	width: 100%;
+	min-height:100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-image: url(../images/img_about.png);
+	text-align: center;
+	color: white;
+	display:flex;
+	align-items:center;
+}
+.contact-form{
+	position: relative;
+	width: 100%;
+	min-height:100%;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-image: url(../images/img_getintouch.png);
+	text-align: center;
+	color: black;
+	
+}
+.blue-sec-content {
+	margin-top: 30% 10% 0 10%;
+}
+.sec-about-margin {
+	margin-top: 50px;
+}
+.blue-position {
+	padding:15% 0 10% 0;
 }
 header .header-content {
 	position: relative;
@@ -403,7 +425,6 @@ header .header-content .header-content-inner p {
 .btn {
 	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 	border: none;
-	border-radius: 300px;
 	font-weight: 700;
 	text-transform: uppercase;
 }
