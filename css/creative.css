@@ -118,7 +118,7 @@ aside {
 	margin: 5%;
 	text-decoration:underline;
 	font-size:smaller;
-	
+	margin-left:10%;
 }
 .Intro-description {
 	color: #000;
@@ -178,6 +178,7 @@ header {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
+
 	-o-background-size: cover;
 	background-image: url(../images/img_3point.png);
 	text-align: left;
@@ -246,6 +247,7 @@ header .header-content {
 }
 header .header-content .header-content-inner {
 	max-width: 1000px;
+	margin-top:-15%;
 	margin-left: auto;
 	margin-right: auto;
 }
