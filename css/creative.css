@@ -94,9 +94,9 @@ aside {
 	width: 60%;
 	margin-left: 20%;
 	margin-right: 20%;
-	padding-top: 5%;
 	padding-bottom: 5%;
 	margin-top:5%;
+	text-align:center;
 }
 .App-icons {
 	width: 50%;
@@ -119,12 +119,11 @@ aside {
 .carousel-control.left {
 	background-image: none;
 }
-.index {
+
+.mountain-index {
+	float:right;
 	margin: 5%;
-	margin-right: 0;
-	text-decoration: underline;
-	float: right;
-	color: #000;
+	mardin-right:10%;
 }
 .Intro-description {
 	color: #000;
@@ -144,11 +143,7 @@ moun-padding {
 	margin: 0;
 }
 
-@media (max-width: 992px) {
-.left-mountain {
-	margin-bottom: 30px;
-}
-}
+
 
 @media (max-width: 768px) {
 .img-res {
@@ -157,7 +152,7 @@ moun-padding {
 }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
 .left-mountain {
 	z-index: 5000;
 	position: absolute;
