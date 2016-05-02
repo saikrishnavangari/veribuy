@@ -8,16 +8,17 @@ html, body,p, ul,li {
 	height: 100%;
 	width: 100%;
 	font-family: 'Montserrat', sans-serif;
-	font-weight:400 !important;
+	
 	
 }
 
-
+textarea {
+    resize: none;
+}
 
 
 h1,h2,h3,h4,h5,h6 {
 	font-family:"Montserrat";
-	font-weight:700 !important;
 }
 a {
 	-webkit-transition: all 0.35s;
@@ -28,9 +29,11 @@ a {
 a:hover, a:focus {
 	color: #eb3812;
 }
-
+ ul{
+	 line-height:2;
+ }
 p {
-	line-height: 2;
+	line-height: 1.5;
 	margin-bottom: 20px;
 }
 .content {
@@ -40,6 +43,13 @@ p {
 	text-align: left;
 	padding: 10% 5% 0 5%;
 	margin-top: -5%;
+}
+.content h5{
+	font-weight:700;
+}
+.content p{
+	font-weight:500;
+	line-height:2 !important;
 }
 .footer-logo{
 	width:70%; 
@@ -129,9 +139,11 @@ hr{
 	color: #000;
 	text-align: left;
 	line-height: 2;
-	margin-top: 20px;
+	margin-top: 5%;
 	margin-bottom: 10%;
-	
+	margin-left:10%;
+	font-weight:500!important;
+	font-size:18px;
 }
 .img-res {
 	padding: 0;
@@ -175,6 +187,15 @@ header {
 	background-position:center;
 	text-align: center;
 	color: white;
+	
+}
+.layer {
+    background-color: rgba(0,0,0,.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 .about {
 	width: 100%;
@@ -224,8 +245,30 @@ header {
 	margin-top: 30% 10% 0 10%;
 }
 .sec-about-margin {
-	margin-top: 50px;
+	margin-top:10%;
+	
 }
+.sec-about-margin p{
+	font-size:20px;
+	line-height:2;
+	font-weight:400;
+	padding-right:5%;
+	
+}
+
+.how-to-text ul li p
+{
+	font-size:16px;
+	font-weight:500;
+}
+.how-to-text ul li 
+{
+	font-weight:500;
+}
+.how-to-text li{
+	font-weight:500;
+}
+
 .blue-position {
 	padding:15% 0 10% 0;
 }
